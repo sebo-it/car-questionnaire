@@ -1,0 +1,5 @@
+<div class="main-loading" *ngIf='loading'>
+    Loading<span class="dot">.</span><span class="dot dot-2">.</span><span class="dot dot-3">.</span>
+</div>
+
+<router-outlet *ngIf='!loading'></router-outlet>

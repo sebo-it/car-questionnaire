@@ -1,0 +1,12 @@
+  <div class="my-container grid center-absolute">
+
+      <div class="loader" *ngIf='loading'></div>
+
+      <div class="canvas-container" *ngIf='!loading'>
+        <app-chart [oldBmwVotes]='oldBmwObj.count' [newBmwVotes]='newBmwObj.count'></app-chart>
+      </div>
+
+      <button (click)='goBack()' type="button" class="my-btn">Powrót</button>
+
+  </div>
+

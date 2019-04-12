@@ -1,0 +1,23 @@
+<div class="loading" *ngIf='loading'>
+  <div class="loader"></div>
+</div>
+
+<div class="center">
+  <div class="my-container grid">
+
+    <div class='element' (click)="vote('old Bmw')">
+      <img src="assets/images/bmw_old.jpeg">
+      <div>Stare</div>
+    </div>
+
+    <span class="vs">VS</span>
+
+    <div class='element' (click)="vote('new Bmw')">
+      <img src="assets/images/bmw_new.jpg">
+      <div>Nowe</div>
+    </div>
+
+    <button routerLink="/results" type="button" class="my-btn center-col">Wyniki</button>
+
+  </div>
+</div>
