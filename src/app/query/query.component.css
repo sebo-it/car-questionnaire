@@ -1,3 +1,7 @@
+.margin-v{
+  margin: 0.5rem 0;
+}
+
 .grid{
   width: 100%;
   max-height: 100%;
