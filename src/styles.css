@@ -17,6 +17,10 @@ body {
   align-items: center;
 }
 
+.margin-v{
+  margin: 0.5rem 0;
+}
+
 .my-container{
   max-width: 80%;
   max-height: 80%;
@@ -81,6 +85,5 @@ body {
     position: static;
     transform: translate(0,0);
   }
-
 
 }
