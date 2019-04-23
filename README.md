@@ -7,7 +7,8 @@ Interesting elements:
 - external API (mLab),
 - HTTP requests,
 - chart.js with own component which wrap the chart,
-- loading animations.
+- loading animations,
+- RWD.
 
 Previous Git history won't be published.
 
